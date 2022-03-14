@@ -34,6 +34,7 @@
 | order1 ; order2 | 多个命令循序执行 | 
 | order1 && order2 | 当命令1顺利执行后，命令2才会执行 | 
 | order1 “｜｜” order2 | 当命令1无法执行时，命令2才会执行，vice versa |
+| \order | 将特殊符号的作用取消，直接输出字符 |
 
 
 # Header 1
