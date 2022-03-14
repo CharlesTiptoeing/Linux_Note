@@ -19,10 +19,14 @@
 | E | ctrl + u | 剪切命令行 | ctrl + c | 强制停止命令 | E |
 | E | n | 输入n跳到第n行 | nx | 删除光标所在处后n个字符 | C |
 | C | ndd | 删除光标所在行下面的n行 | :n1,n2d | 删除指定范围行 | E |
-| [top](#smileys--emotion) | :slightly_smiling_face: | `:slightly_smiling_face:` | :upside_down_face: | `:upside_down_face:` | [top](#table-of-contents) |
-| [top](#smileys--emotion) | :wink: | `:wink:` | :blush: | `:blush:` | [top](#table-of-contents) |
-| [top](#smileys--emotion) | :innocent: | `:innocent:` | | | [top](#table-of-contents) |
-Syntax highlighted code block
+
+#### cat
+| | shortcode | Description | 
+| - | :-: | - | 
+| C | 命令 > 文件夹 | 把命令的输出保存到指定文件夹 | 
+| E | 命令 >> 文件夹 | 以追加的方式把命令的输出保存到指定文件夹 | 
+| E | n | 输入n跳到第n行 |
+| C | ndd | 删除光标所在行下面的n行 | 
 
 # Header 1
 ## Header 2
