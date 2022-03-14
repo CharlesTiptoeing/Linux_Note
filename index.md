@@ -16,7 +16,7 @@
 | | shortcode | Description | shortcode | Description | |
 | - | :-: | - | :-: | - | - |
 | C | ctrl + a | 光标移到命令行开头 | ctrl + e | 光标移到命令行尾 | C |
-| E | ctrl + u | 剪切命令行 | gg | 光标移至第一行 | E |
+| E | ctrl + u | 剪切命令行 | ctrl + c | 强制停止命令 | E |
 | E | n | 输入n跳到第n行 | nx | 删除光标所在处后n个字符 | C |
 | C | ndd | 删除光标所在行下面的n行 | :n1,n2d | 删除指定范围行 | E |
 | [top](#smileys--emotion) | :slightly_smiling_face: | `:slightly_smiling_face:` | :upside_down_face: | `:upside_down_face:` | [top](#table-of-contents) |
