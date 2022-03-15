@@ -45,6 +45,24 @@
 | $* | 变量代表命令行的所有参数，将参数看为一个整体 |
 | $@ | 变量代表命令行的所有参数，将参数分别对待 |
 
+```markdown
+#!/bin/bash
+for i in "$*"
+#$*中所有参数看作为一个整体，所以这个for循环只循环一次
+   do
+       echo "The parameter is:$i"
+   done
+x=1
+
+for y in "$@"
+   do
+       echo "The parameter$x is $y"
+       x=$(($x+1))
+   done
+
+
+```
+
 
 # Header 1
 ## Header 2
