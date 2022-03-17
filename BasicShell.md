@@ -93,8 +93,16 @@ $((运算式))    $(命令式)
 | -p | 显示变量被声明的类型 |
 
 #### source 配置文件 = .配置文件
-## Header 2
-### Header 3
+
+#### printf '输出类型输出格式' 输出内容
+输出类型 %m.nf 输出浮点数。m和n为数字，指输出的整数位和小数数位。
+
+输出格式
+| shortcode | Description | 
+| :-: | - | 
+| \n | 换行 | 
+| \r | 回车键，Enter键 |
+| \t | 退格键，Tab键 | 
 
 - Bulleted
 - List
